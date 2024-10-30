@@ -1,0 +1,62 @@
+#box-container {
+    width: 70%;
+    background-color: grey;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9 {
+    background-color: lightgrey;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#box1:hover {
+    background-color: blue;
+}
+#box2:hover {
+    background-color: red;
+}
+#box3:hover {
+    background-color: green;
+}
+#box4:hover {
+    background-color: purple;
+}
+#box5:hover {
+    background-color: yellow;
+}
+#box6:hover {
+    background-color: cyan;
+}
+#box7:hover {
+    background-color: orange;
+}
+#box8:hover {
+    background-color: black
+}
+#box9:hover {
+    background-color: white;
+}
+
+#numbers {
+    margin: 0px 0px;
+    padding: 75px;
+    color: pink;
+}
+
+#next-btn::after {
+    background-color: pink;
+    height: 25px;
+    width: 50px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
