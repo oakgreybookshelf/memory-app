@@ -52,11 +52,15 @@
     color: pink;
 }
 
-#next-btn::after {
+#next-btn {
     background-color: pink;
     height: 25px;
     width: 50px;
     padding: 5px 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#question {
+    font-size: 23px;
 }
