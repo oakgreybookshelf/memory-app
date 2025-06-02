@@ -64,3 +64,26 @@
 #question {
     font-size: 23px;
 }
+
+
+#submit-btn {
+    background-color: pink;
+    height: 50px;
+    width: 200px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#answer-container {
+    width: 70%;
+    max-width: 650px;
+    background-color: pink;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
