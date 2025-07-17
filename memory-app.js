@@ -11,14 +11,14 @@ function next() {
                     return;
                 }
                 if (selectedAnswer.value === "yellow") {
-                    window.location.href = 'memory3.html'; 
+                    window.location.href = 'https://oakgreybookshelf.github.io/memory-app/memory3.html'; 
                 } else {
-                    window.location.href = 'memory4.html';
+                    window.location.href = 'https://oakgreybookshelf.github.io/memory-app/memory4.html';
                 }
             }); 
         } 
 
 function restart() { 
             // Replace with your next page URL 
-            window.location.href = 'index.html'; 
+            window.location.href = 'https://oakgreybookshelf.github.io/memory-app/'; 
         } 
