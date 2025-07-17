@@ -1,6 +1,6 @@
 function nextPage() { 
             // Replace with your next page URL 
-            window.location.href = 'memory2.html'; 
+            window.location.href = 'https://oakgreybookshelf.github.io/memory-app/memory2'; 
         } 
 
 function next() { 
