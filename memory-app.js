@@ -20,5 +20,5 @@ function next() {
 
 function restart() { 
             // Replace with your next page URL 
-            window.location.href = 'memory.html'; 
+            window.location.href = 'index.html'; 
         } 
