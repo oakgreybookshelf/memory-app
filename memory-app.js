@@ -4,7 +4,6 @@ function nextPage() {
         } 
 
 function next() { 
-            document.getElementById('submit-btn').addEventListener('click', function() {
                 const selectedAnswer = document.querySelector('input[name="colors"]:checked');
                 if (!selectedAnswer) {
                     alert("Please select an answer.");
